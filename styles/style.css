@@ -56,6 +56,8 @@ p {
     height: 95%;
     width: 73px;
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 .float-left {
     float: left;
