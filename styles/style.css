@@ -53,8 +53,8 @@ p {
 .inner-cell {
     display: inline-block;
     border: #818181 solid 2px;
-    height: 95%;
-    width: 73px;
+    height: 100%;
+    width: 77px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
