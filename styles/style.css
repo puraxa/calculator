@@ -2,15 +2,6 @@ body {
     width: 308px;
     margin: 0 auto;
 }
-.no-left-border {
-    border-left: none;
-}
-.no-right-border {
-    border-right: none;
-}
-.number-color {
-    background-color: #D5D5D5; 
-}
 .operations-color {
     background-color: #EF913A;
     color: white;
@@ -61,10 +52,9 @@ p {
 }
 .inner-cell {
     display: inline-block;
-    border: solid 1px;
+    border: #818181 solid 2px;
     height: 95%;
-    width: 75px;
-    margin: 0 0 0 0;
+    width: 73px;
     text-align: center;
 }
 .float-left {
@@ -72,4 +62,25 @@ p {
 }
 .clear {
     clear: both;
+}
+.border-color {
+    border-color: #4D4D4D;
+}
+.no-left-border {
+    border-left: none;
+}
+.no-right-border {
+    border-right: none;
+}
+.no-top-border {
+    border-top: none;
+}
+.vertical-align {
+    vertical-align: middle;
+    line-height: 70px;
+}
+.white {
+    color: white;
+    vertical-align: middle;
+    line-height: 35px;
 }
