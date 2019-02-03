@@ -1,20 +1,6 @@
 body {
-    width: 303px;
+    width: 308px;
     margin: 0 auto;
-}
-table , th , td {
-    border-collapse: collapse;
-    border: solid;
-    text-align: center;
-}
-th , td {
-    width: 70px;
-    height: 70px;
-}
-th {
-    color: white;
-    height: 35px;
-    border-color: #4D4D4D;
 }
 .no-left-border {
     border-left: none;
@@ -40,7 +26,6 @@ th {
 }
 .main-div{
     height: 210px;
-    width: 303px;
     background-color: #4D4D4D;
     color: white;
 }
@@ -56,11 +41,6 @@ th {
     border: solid red;
     background-color: red;
 }
-td {
-    border-color: #8D8D8D;
-    font-size: 20px;
-    font-weight: bold;
-}
 p {
     font-size: 30px;
     text-align: right;
@@ -70,4 +50,26 @@ p {
 }
 .no-bottom-margin {
     margin-bottom: 1px;
+}
+.top-row-div {
+    height: 35px;
+    background-color: #818181;
+}
+.numpad-row {
+    height: 70px;
+    background-color: #D5D5D5;
+}
+.inner-cell {
+    display: inline-block;
+    border: solid 1px;
+    height: 95%;
+    width: 75px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+.float-left {
+    float: left;
+}
+.clear {
+    clear: both;
 }
