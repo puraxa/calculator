@@ -86,3 +86,6 @@ p {
     vertical-align: middle;
     line-height: 35px;
 }
+.width-zero {
+    width: 77px;
+}
