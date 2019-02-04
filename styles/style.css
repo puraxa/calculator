@@ -2,13 +2,6 @@ body {
     width: 308px;
     margin: 0 auto;
 }
-.operations-color {
-    background-color: #EF913A;
-    color: white;
-}
-.heading-color {
-    background-color: #818181;
-}
 .circle {
     border-radius: 50%;
     width: 10px;
@@ -42,10 +35,6 @@ p {
 .no-bottom-margin {
     margin-bottom: 1px;
 }
-.top-row-div {
-    height: 35px;
-    background-color: #818181;
-}
 .numpad-row {
     height: 70px;
     background-color: #D5D5D5;
@@ -59,6 +48,7 @@ p {
     font-weight: bold;
     font-size: 20px;
     border-top: none;
+    background-color: #D5D5D5;
 }
 .float-left {
     float: left;
@@ -89,4 +79,14 @@ p {
 }
 .width-zero {
     width: 77px;
+}
+.top-row-div {
+    height: 35px;
+}
+.operations-color {
+    background-color: #EF913A;
+    color: white;
+}
+.heading-color {
+    background-color: #818181;
 }
